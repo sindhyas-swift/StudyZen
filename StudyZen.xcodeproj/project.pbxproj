@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 90;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9580F6A22F44E19A00DBA1BB /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580F6A02F44E19A00DBA1BB /* Theme.swift */; };
+		9580F6A32F44E19A00DBA1BB /* StudyZenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580F69F2F44E19A00DBA1BB /* StudyZenApp.swift */; };
+		9580F6A42F44E19A00DBA1BB /* GratefulnessViewModelswift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580F68C2F44E19A00DBA1BB /* GratefulnessViewModelswift.swift */; };
+		9580F6A52F44E19A00DBA1BB /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580F69B2F44E19A00DBA1BB /* AudioManager.swift */; };
+		9580F6A62F44E19A00DBA1BB /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580F69E2F44E19A00DBA1BB /* SpeechManager.swift */; };
+		9580F6A72F44E19A00DBA1BB /* InstructionsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580F6972F44E19A00DBA1BB /* InstructionsRow.swift */; };
+		9580F6A82F44E19A00DBA1BB /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580F68E2F44E19A00DBA1BB /* HomeViewModel.swift */; };
+		9580F6A92F44E19A00DBA1BB /* SessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580F68F2F44E19A00DBA1BB /* SessionViewModel.swift */; };
+		9580F6AA2F44E19A00DBA1BB /* AffirmationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580F68B2F44E19A00DBA1BB /* AffirmationsViewModel.swift */; };
+		9580F6AB2F44E19A00DBA1BB /* ActivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580F6892F44E19A00DBA1BB /* ActivityModel.swift */; };
+		9580F6AC2F44E19A00DBA1BB /* GuidedSighView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580F6952F44E19A00DBA1BB /* GuidedSighView.swift */; };
+		9580F6AD2F44E19A00DBA1BB /* BreathingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580F6932F44E19A00DBA1BB /* BreathingView.swift */; };
+		9580F6AE2F44E19A00DBA1BB /* ActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580F6912F44E19A00DBA1BB /* ActivityCard.swift */; };
+		9580F6AF2F44E19A00DBA1BB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580F6962F44E19A00DBA1BB /* HomeView.swift */; };
+		9580F6B02F44E19A00DBA1BB /* GratefulnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580F6942F44E19A00DBA1BB /* GratefulnessView.swift */; };
+		9580F6B12F44E19A00DBA1BB /* AffirmationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580F6922F44E19A00DBA1BB /* AffirmationsView.swift */; };
+		9580F6B22F44E19A00DBA1BB /* GuidedSighViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580F68D2F44E19A00DBA1BB /* GuidedSighViewModel.swift */; };
+		9580F6B32F44E19A00DBA1BB /* MeditationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580F6982F44E19A00DBA1BB /* MeditationView.swift */; };
+		9580F6B42F44E19A00DBA1BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580F69C2F44E19A00DBA1BB /* ContentView.swift */; };
+		9580F6B52F44E19A00DBA1BB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9580F69D2F44E19A00DBA1BB /* Icon.png */; };
+		9580F6B62F44E19A00DBA1BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9580F69A2F44E19A00DBA1BB /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		957E16562F2B055D004B61C0 /* StudyZen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyZen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9580F6892F44E19A00DBA1BB /* ActivityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityModel.swift; sourceTree = "<group>"; };
+		9580F68B2F44E19A00DBA1BB /* AffirmationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsViewModel.swift; sourceTree = "<group>"; };
+		9580F68C2F44E19A00DBA1BB /* GratefulnessViewModelswift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratefulnessViewModelswift.swift; sourceTree = "<group>"; };
+		9580F68D2F44E19A00DBA1BB /* GuidedSighViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidedSighViewModel.swift; sourceTree = "<group>"; };
+		9580F68E2F44E19A00DBA1BB /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		9580F68F2F44E19A00DBA1BB /* SessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionViewModel.swift; sourceTree = "<group>"; };
+		9580F6912F44E19A00DBA1BB /* ActivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCard.swift; sourceTree = "<group>"; };
+		9580F6922F44E19A00DBA1BB /* AffirmationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsView.swift; sourceTree = "<group>"; };
+		9580F6932F44E19A00DBA1BB /* BreathingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingView.swift; sourceTree = "<group>"; };
+		9580F6942F44E19A00DBA1BB /* GratefulnessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratefulnessView.swift; sourceTree = "<group>"; };
+		9580F6952F44E19A00DBA1BB /* GuidedSighView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidedSighView.swift; sourceTree = "<group>"; };
+		9580F6962F44E19A00DBA1BB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9580F6972F44E19A00DBA1BB /* InstructionsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsRow.swift; sourceTree = "<group>"; };
+		9580F6982F44E19A00DBA1BB /* MeditationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationView.swift; sourceTree = "<group>"; };
+		9580F69A2F44E19A00DBA1BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9580F69B2F44E19A00DBA1BB /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		9580F69C2F44E19A00DBA1BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9580F69D2F44E19A00DBA1BB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		9580F69E2F44E19A00DBA1BB /* SpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechManager.swift; sourceTree = "<group>"; };
+		9580F69F2F44E19A00DBA1BB /* StudyZenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyZenApp.swift; sourceTree = "<group>"; };
+		9580F6A02F44E19A00DBA1BB /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		95D4798F2F34ECD500D82BE8 /* Music */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Music;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		957E16532F2B055D004B61C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		957E164D2F2B055D004B61C0 = {
+			isa = PBXGroup;
+			children = (
+				9580F6A12F44E19A00DBA1BB /* StudyZen */,
+				95D4798F2F34ECD500D82BE8 /* Music */,
+				957E16572F2B055D004B61C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		957E16572F2B055D004B61C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				957E16562F2B055D004B61C0 /* StudyZen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9580F68A2F44E19A00DBA1BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9580F6892F44E19A00DBA1BB /* ActivityModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9580F6902F44E19A00DBA1BB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9580F68B2F44E19A00DBA1BB /* AffirmationsViewModel.swift */,
+				9580F68C2F44E19A00DBA1BB /* GratefulnessViewModelswift.swift */,
+				9580F68D2F44E19A00DBA1BB /* GuidedSighViewModel.swift */,
+				9580F68E2F44E19A00DBA1BB /* HomeViewModel.swift */,
+				9580F68F2F44E19A00DBA1BB /* SessionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9580F6992F44E19A00DBA1BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9580F6912F44E19A00DBA1BB /* ActivityCard.swift */,
+				9580F6922F44E19A00DBA1BB /* AffirmationsView.swift */,
+				9580F6932F44E19A00DBA1BB /* BreathingView.swift */,
+				9580F6942F44E19A00DBA1BB /* GratefulnessView.swift */,
+				9580F6952F44E19A00DBA1BB /* GuidedSighView.swift */,
+				9580F6962F44E19A00DBA1BB /* HomeView.swift */,
+				9580F6972F44E19A00DBA1BB /* InstructionsRow.swift */,
+				9580F6982F44E19A00DBA1BB /* MeditationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9580F6A12F44E19A00DBA1BB /* StudyZen */ = {
+			isa = PBXGroup;
+			children = (
+				9580F68A2F44E19A00DBA1BB /* Models */,
+				9580F6902F44E19A00DBA1BB /* ViewModels */,
+				9580F6992F44E19A00DBA1BB /* Views */,
+				9580F69A2F44E19A00DBA1BB /* Assets.xcassets */,
+				9580F69B2F44E19A00DBA1BB /* AudioManager.swift */,
+				9580F69C2F44E19A00DBA1BB /* ContentView.swift */,
+				9580F69D2F44E19A00DBA1BB /* Icon.png */,
+				9580F69E2F44E19A00DBA1BB /* SpeechManager.swift */,
+				9580F69F2F44E19A00DBA1BB /* StudyZenApp.swift */,
+				9580F6A02F44E19A00DBA1BB /* Theme.swift */,
+			);
+			path = StudyZen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		957E16552F2B055D004B61C0 /* StudyZen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 957E16612F2B0562004B61C0 /* Build configuration list for PBXNativeTarget "StudyZen" */;
+			buildPhases = (
+				957E16522F2B055D004B61C0 /* Sources */,
+				957E16532F2B055D004B61C0 /* Frameworks */,
+				957E16542F2B055D004B61C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				95D4798F2F34ECD500D82BE8 /* Music */,
+			);
+			name = StudyZen;
+			productName = StudyZen;
+			productReference = 957E16562F2B055D004B61C0 /* StudyZen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		957E164E2F2B055D004B61C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					957E16552F2B055D004B61C0 = {
+						CreatedOnToolsVersion = 26.2;
+						LastSwiftMigration = 2620;
+					};
+				};
+			};
+			buildConfigurationList = 957E16512F2B055D004B61C0 /* Build configuration list for PBXProject "StudyZen" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 957E164D2F2B055D004B61C0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 90;
+			productRefGroup = 957E16572F2B055D004B61C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				957E16552F2B055D004B61C0 /* StudyZen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		957E16542F2B055D004B61C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				9580F6B52F44E19A00DBA1BB /* Icon.png in Resources */,
+				9580F6B62F44E19A00DBA1BB /* Assets.xcassets in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		957E16522F2B055D004B61C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				9580F6A22F44E19A00DBA1BB /* Theme.swift in Sources */,
+				9580F6A32F44E19A00DBA1BB /* StudyZenApp.swift in Sources */,
+				9580F6A42F44E19A00DBA1BB /* GratefulnessViewModelswift.swift in Sources */,
+				9580F6A52F44E19A00DBA1BB /* AudioManager.swift in Sources */,
+				9580F6A62F44E19A00DBA1BB /* SpeechManager.swift in Sources */,
+				9580F6A72F44E19A00DBA1BB /* InstructionsRow.swift in Sources */,
+				9580F6A82F44E19A00DBA1BB /* HomeViewModel.swift in Sources */,
+				9580F6A92F44E19A00DBA1BB /* SessionViewModel.swift in Sources */,
+				9580F6AA2F44E19A00DBA1BB /* AffirmationsViewModel.swift in Sources */,
+				9580F6AB2F44E19A00DBA1BB /* ActivityModel.swift in Sources */,
+				9580F6AC2F44E19A00DBA1BB /* GuidedSighView.swift in Sources */,
+				9580F6AD2F44E19A00DBA1BB /* BreathingView.swift in Sources */,
+				9580F6AE2F44E19A00DBA1BB /* ActivityCard.swift in Sources */,
+				9580F6AF2F44E19A00DBA1BB /* HomeView.swift in Sources */,
+				9580F6B02F44E19A00DBA1BB /* GratefulnessView.swift in Sources */,
+				9580F6B12F44E19A00DBA1BB /* AffirmationsView.swift in Sources */,
+				9580F6B22F44E19A00DBA1BB /* GuidedSighViewModel.swift in Sources */,
+				9580F6B32F44E19A00DBA1BB /* MeditationView.swift in Sources */,
+				9580F6B42F44E19A00DBA1BB /* ContentView.swift in Sources */,
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		957E165F2F2B0562004B61C0 /* Debug configuration for PBXProject "StudyZen" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = YW9QLYXD9D;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		957E16602F2B0562004B61C0 /* Release configuration for PBXProject "StudyZen" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = YW9QLYXD9D;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		957E16622F2B0562004B61C0 /* Debug configuration for PBXNativeTarget "StudyZen" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YW9QLYXD9D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sindhya-Raj.StudyZen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		957E16632F2B0562004B61C0 /* Release configuration for PBXNativeTarget "StudyZen" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YW9QLYXD9D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sindhya-Raj.StudyZen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		957E16512F2B055D004B61C0 /* Build configuration list for PBXProject "StudyZen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				957E165F2F2B0562004B61C0 /* Debug configuration for PBXProject "StudyZen" */,
+				957E16602F2B0562004B61C0 /* Release configuration for PBXProject "StudyZen" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		957E16612F2B0562004B61C0 /* Build configuration list for PBXNativeTarget "StudyZen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				957E16622F2B0562004B61C0 /* Debug configuration for PBXNativeTarget "StudyZen" */,
+				957E16632F2B0562004B61C0 /* Release configuration for PBXNativeTarget "StudyZen" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 957E164E2F2B055D004B61C0 /* Project object */;
+}
