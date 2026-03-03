@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		957FD1562F4FDF91001B301F /* JournalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FD1552F4FDF91001B301F /* JournalViewModel.swift */; };
 		9580F6A22F44E19A00DBA1BB /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580F6A02F44E19A00DBA1BB /* Theme.swift */; };
-		9580F6A32F44E19A00DBA1BB /* StudyZenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580F69F2F44E19A00DBA1BB /* StudyZenApp.swift */; };
+		9580F6A32F44E19A00DBA1BB /* Ora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580F69F2F44E19A00DBA1BB /* Ora.swift */; };
 		9580F6A42F44E19A00DBA1BB /* GratefulViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580F68C2F44E19A00DBA1BB /* GratefulViewModel.swift */; };
 		9580F6A52F44E19A00DBA1BB /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580F69B2F44E19A00DBA1BB /* AudioManager.swift */; };
 		9580F6A62F44E19A00DBA1BB /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580F69E2F44E19A00DBA1BB /* SpeechManager.swift */; };
@@ -56,7 +56,7 @@
 		9580F69B2F44E19A00DBA1BB /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
 		9580F69C2F44E19A00DBA1BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9580F69E2F44E19A00DBA1BB /* SpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechManager.swift; sourceTree = "<group>"; };
-		9580F69F2F44E19A00DBA1BB /* StudyZenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyZenApp.swift; sourceTree = "<group>"; };
+		9580F69F2F44E19A00DBA1BB /* Ora.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ora.swift; sourceTree = "<group>"; };
 		9580F6A02F44E19A00DBA1BB /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		95BECC672F55E9E800E5A801 /* DustParticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DustParticle.swift; sourceTree = "<group>"; };
 		95BECC692F55EE2800E5A801 /* MagicalGradientText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicalGradientText.swift; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		957E164D2F2B055D004B61C0 = {
 			isa = PBXGroup;
 			children = (
-				9580F6A12F44E19A00DBA1BB /* StudyZen */,
+				9580F6A12F44E19A00DBA1BB /* Ora */,
 				957E16572F2B055D004B61C0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -140,7 +140,7 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		9580F6A12F44E19A00DBA1BB /* StudyZen */ = {
+		9580F6A12F44E19A00DBA1BB /* Ora */ = {
 			isa = PBXGroup;
 			children = (
 				9580F68A2F44E19A00DBA1BB /* Models */,
@@ -150,9 +150,9 @@
 				95955BEB2F50C655004A2215 /* Manager */,
 				9580F69A2F44E19A00DBA1BB /* Assets.xcassets */,
 				9580F69C2F44E19A00DBA1BB /* ContentView.swift */,
-				9580F69F2F44E19A00DBA1BB /* StudyZenApp.swift */,
+				9580F69F2F44E19A00DBA1BB /* Ora.swift */,
 			);
-			path = StudyZen;
+			path = Ora;
 			sourceTree = "<group>";
 		};
 		95955BEB2F50C655004A2215 /* Manager */ = {
@@ -201,7 +201,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 957E16512F2B055D004B61C0 /* Build configuration list for PBXProject "StudyZen" */;
+			buildConfigurationList = 957E16512F2B055D004B61C0 /* Build configuration list for PBXProject "Ora" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -235,7 +235,7 @@
 			files = (
 				957FD1562F4FDF91001B301F /* JournalViewModel.swift in Sources */,
 				9580F6A22F44E19A00DBA1BB /* Theme.swift in Sources */,
-				9580F6A32F44E19A00DBA1BB /* StudyZenApp.swift in Sources */,
+				9580F6A32F44E19A00DBA1BB /* Ora.swift in Sources */,
 				95BECC682F55E9E800E5A801 /* DustParticle.swift in Sources */,
 				9580F6A42F44E19A00DBA1BB /* GratefulViewModel.swift in Sources */,
 				9580F6A52F44E19A00DBA1BB /* AudioManager.swift in Sources */,
@@ -263,7 +263,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		957E165F2F2B0562004B61C0 /* Debug configuration for PBXProject "StudyZen" */ = {
+		957E165F2F2B0562004B61C0 /* Debug configuration for PBXProject "Ora" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -327,7 +327,7 @@
 			};
 			name = Debug;
 		};
-		957E16602F2B0562004B61C0 /* Release configuration for PBXProject "StudyZen" */ = {
+		957E16602F2B0562004B61C0 /* Release configuration for PBXProject "Ora" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -458,11 +458,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		957E16512F2B055D004B61C0 /* Build configuration list for PBXProject "StudyZen" */ = {
+		957E16512F2B055D004B61C0 /* Build configuration list for PBXProject "Ora" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				957E165F2F2B0562004B61C0 /* Debug configuration for PBXProject "StudyZen" */,
-				957E16602F2B0562004B61C0 /* Release configuration for PBXProject "StudyZen" */,
+				957E165F2F2B0562004B61C0 /* Debug configuration for PBXProject "Ora" */,
+				957E16602F2B0562004B61C0 /* Release configuration for PBXProject "Ora" */,
 			);
 			defaultConfigurationName = Release;
 		};
