@@ -102,7 +102,7 @@ struct BreathingView: View {
     private var scaleValue: CGFloat {
         switch viewModel.breathingPhase {
         case .inhale:
-            return isOpen ? 0.85 : 1.05   // bloom animation
+            return 1.05
         case .hold:
             return 1.05
         case .exhale:
